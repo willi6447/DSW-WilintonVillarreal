@@ -54,6 +54,22 @@ footer{
     width: 100%;
     padding: 20px; 
 }
+#caja4{
+    width: 900px;
+    height: 400px;
+}
+/*estilo para tablet*/
+@media only screen and (min-width:768px) and (max-width:940px){
+    #caja4{
+        width: 600px;
+    }
+}
+/*estilo para movil*/
+@media only screen and (min-width:400px) and (max-width:767px){
+    #caja4{
+        width: 400px;
+    }
+}
 @media screen and (max-width: 980px){
     #contenedor{
         width: 90%;
@@ -190,4 +206,19 @@ img {
 }
 /*fin movil*/
  }
-
+#caja4{
+    width: 900px;
+    height: 400px;
+}
+/*estilo para tablet*/
+@media only screen and (min-width:768px) and (max-width:940px){
+    #caja4{
+        width: 600px;
+    }
+}
+/*estilo para movil*/
+@media only screen and (min-width:400px) and (max-width:767px){
+    #caja4{
+        width: 400px;
+    }
+}
