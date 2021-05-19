@@ -77,15 +77,4 @@ footer{
         display:none;
     }
 }
-img {
-    max-width: 100%;
-    height: auto;
-}
-@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
-       .entry, .entry-content
-       {
- 	      font-size:1.2em;
-	      line-height:1.5em;
 
-	}
- }
