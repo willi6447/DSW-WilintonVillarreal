@@ -52,8 +52,31 @@ footer{
     margin-top: 20px;
     box-sizing: border-box;
     width: 100%;
-    padding: 20px;
+    padding: 20px; 
 }
+@media screen and (max-width: 800px) {
+      #contenedor{
+                           width:100%;
+                           }
+}
+@media screen and (max-device-width : 480px) {
+
+        #sidebar{
+	        display:none;
+	        }
+
+                #menu{
+               text-align:center;
+               }
+}
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+       .entry, .entry-content
+       {
+ 	      font-size:1.2em;
+	      line-height:1.5em;
+
+	}
+ }
 /*Escritorio*/
 @media (min-width: 1199.98px)  {
     body{background: red;}
