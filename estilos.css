@@ -55,8 +55,8 @@ footer{
     padding: 20px; 
 }
 #caja4{
-    width: 900px;
-    height: 400px;
+    width: 1200px;
+    height: 800px;
 }
 /*estilo para tablet*/
 @media only screen and (min-width:768px) and (max-width:940px){
