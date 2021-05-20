@@ -82,15 +82,5 @@ footer{
     padding: 20px; 
 }
 
-@media all and (min-width:768px) {
-    float: left;
-    margin-right:10%;
-    width: 20%;
-}
-@media all and (min-width: 1280px) {
-    float: left;
-    margin-right: 2%;
-    width: 30%;
-   
 }
 
