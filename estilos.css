@@ -81,32 +81,7 @@ footer{
     width: 100%;
     padding: 20px; 
 }
-/* Portrait and Landscape */
-@media screen 
-  and (device-width: 480px) 
-  and (device-height: 800px) {
 
-}
-
-/* Portrait */
-@media screen 
-  and (device-width: 480px) 
-  and (device-height: 800px)  
-  and (orientation: portrait) {
-
-}
-
-/* Landscape */
-@media screen 
-  and (device-width: 480px) 
-  and (device-height: 800px) 
-  and (orientation: landscape) {
-
-}
-/*Escritorio*/
-@media (min-width: 1199.98px)  {
-    body{background:rgb(178, 255, 127 ;}
-}
 @media all and (min-width:768px) {
     float: left;
     margin-right:10%;
