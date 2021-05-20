@@ -26,6 +26,7 @@ p {
 body{
     background-color: aqua;
     font-family: Arial;
+    float: left;
 }
 .contenedor {
     /*width: 80%;*/
@@ -35,8 +36,11 @@ body{
     width:100%;
     margin-right:auto;
     margin-left:auto;
+    float: left;
  .contenedor img{
-     width:100%;}
+     width:100%;
+     float: left;
+}
 }
 header{
     background-color:rgb(0, 195, 255)
@@ -57,7 +61,7 @@ nav{
     }
     section{
         background-color:rgb(178, 255, 127)
-        
+     
         box-sizing:border-box;
         
         }
@@ -104,5 +108,16 @@ footer{
 /*Escritorio*/
 @media (min-width: 1199.98px)  {
     body{background:rgb(178, 255, 127 ;}
+}
+@media all and (min-width:768px) {
+    float: left;
+    margin-right:10%;
+    width: 20%;
+}
+@media all and (min-width: 1280px) {
+    float: left;
+    margin-right: 2%;
+    width: 30%;
+   
 }
 
