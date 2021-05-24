@@ -102,3 +102,16 @@ footer{
 @media all and (orientation: landscape) {
             /* CSS code for output in landscape mode */
             }
+/* Diseño para celulares */
+#columna1, #columna2, #columna3 {
+	float:none;
+	width:100%;
+}
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 800px) {
+	#columna1, #columna2 {
+		float:left;
+		width:50%;
+	}
+}
