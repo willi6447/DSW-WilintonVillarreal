@@ -92,3 +92,9 @@ footer{
 @media screen and (max-width:767px){
             width: 767px;
         }  
+@media screen and (max-width:720px) {
+    width: 720px;
+        }  
+@media all and (orientation: landscape) {
+            /* CSS code for output in landscape mode */
+            }
