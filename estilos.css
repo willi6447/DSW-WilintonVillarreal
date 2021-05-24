@@ -95,7 +95,11 @@ footer{
     }
 @media screen and (max-width:767px){
             width: 767px;
-        }  
+        } 
+@media screen and (min-width: 321px) and (max-width: 719px) { 
+            width:320px;
+        }
+
 @media screen and (max-width:720px) {
     width: 720px;
         }  
@@ -106,10 +110,12 @@ footer{
 #columna1, #columna2, #columna3 {
 	float:none;
 	width:100%;
+@media screen and (min-width:400px) {
+	#columna1
 }
 
 /* Diseño para tabletas */ 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
 	#columna1, #columna2 {
 		float:left;
 		width:50%;
