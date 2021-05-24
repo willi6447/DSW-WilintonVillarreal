@@ -37,7 +37,7 @@ body{
     margin-left:auto;
     float: left;
  .contenedor img{
-     width:100%;
+     width:auto;
 }
 }
 header{
@@ -83,4 +83,12 @@ footer{
 }
 
 }
-
+@media screen and (min-width: 768px) and
+    (max-width: 1023px){
+        float:left
+        margin-right:10%;
+        width: 20%;
+    }
+    @media screen and (max-width:767px){
+            width: 767px;
+        }  
