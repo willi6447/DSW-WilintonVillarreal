@@ -26,8 +26,7 @@ p {
 body{
     background-color: aqua;
     font-family: Arial;
-    img {
-         width: 100%;
+    
     }
   
 .contenedor {
@@ -97,7 +96,7 @@ footer{
             width: 767px;
         } 
 @media screen and (min-width: 321px) and (max-width: 719px) { 
-            width:320px;
+            width:321px;
         }
 
 @media screen and (max-width:720px) {
@@ -107,9 +106,9 @@ footer{
             /* CSS code for output in landscape mode */
             }
 /* Diseño para celulares */
-#columna1, #columna2, #columna3 {
+#columna1,{
 	float:none;
-	width:100%;
+	width:100%;}
 @media screen and (min-width:400px) {
 	#columna1
 }
