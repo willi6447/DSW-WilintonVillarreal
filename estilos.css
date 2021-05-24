@@ -89,6 +89,6 @@ footer{
         margin-right:10%;
         width: 20%;
     }
-    @media screen and (max-width:767px){
+@media screen and (max-width:767px){
             width: 767px;
         }  
